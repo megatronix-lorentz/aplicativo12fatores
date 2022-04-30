@@ -1,4 +1,4 @@
-# aplicativo12fatores
+# Os 12 Fatores de um Aplicativo
 
 ## Introdução
 Na era moderna, o software é comumente entregue como um serviço: chamado de aplicativos da Web ou software como serviço . O aplicativo de doze fatores é uma metodologia para criar aplicativos de software como serviço que:
