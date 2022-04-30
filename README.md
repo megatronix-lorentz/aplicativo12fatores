@@ -23,10 +23,9 @@ Qualquer desenvolvedor que cria aplicativos que são executados como um serviço
 ## Os doze fatores
 
 <details>
-<summary>I. Base de código<br />
-Uma base de código rastreada no controle de revisão, muitas implantações </summary>
+<summary>I. Base de código </summary>
 
-## I. Base de código
+## 1. Base de código
   
 ### Uma base de código rastreada no controle de revisão, muitas implantações
   
@@ -47,10 +46,9 @@ A base de código é a mesma através de todos os deploys, entretanto diferentes
 </details>
   
 <details>
-<summary>II. Dependências
-<br />Declare e isole explicitamente dependências</summary>
+<summary>II. Dependências </summary>
   
-## II. Dependências
+## 2. Dependências
   
 ### Declare e isole explicitamente dependências
   
@@ -66,10 +64,9 @@ Aplicações doze-fatores também não contam com a existência implícita de to
 </details>
 
 <details>
-<summary>III. Configuração
-<br />Armazenar a configuração no ambiente</summary>
+<summary>III. Configuração </summary>
 
-## III. Configuração
+## 3. Configuração
   
 ### Armazenar a configuração no ambiente
   
@@ -96,11 +93,9 @@ Em uma aplicação doze-fatores, env vars são controles granulares, cada um tot
 </details>
 
 <details>
-<summary> 
-IV. Serviços de apoio
-<br />Trate os serviços de apoio como recursos anexados</summary>
+<summary>IV. Serviços de apoio s</summary>
   
-## IV. Serviços de apoio
+## 4. Serviços de apoio
   
 ### Trate os serviços de apoio como recursos anexados
   
@@ -118,11 +113,9 @@ Recursos podem ser anexados e desanexados a deploys à vontade. Por exemplo, se 
 </details>
 
 <details>
-<summary>
-V. Construir, liberar, executar
-<br />Estágios de compilação e execução estritamente separados</summary>
+<summary>V. Construir, liberar, executar </summary>
   
-## V. Construa, lance, execute
+## 5. Construa, lance, execute
   
 ### Separe estritamente os estágios de construção e execução
 
@@ -144,11 +137,9 @@ Construções são iniciadas pelos desenvolvedores do app sempre que novos códi
 </details>
 
 <details>
-<summary>
-VI. Processos
-<br />Execute o aplicativo como um ou mais processos sem estado</summary>
+<summary>VI. Processos - Execute a aplicação como um ou mais processos que não armazenam estado </summary>
 
-## VI. Processos
+## 6. Processos
   
 ### Execute a aplicação como um ou mais processos que não armazenam estado
 
@@ -166,11 +157,9 @@ Alguns sistemas web dependem de ["sessões persistentes"](http://en.wikipedia.or
 </details>
 
 <details>
-<summary>
-VII. Vinculação de porta
-<br />Exportar serviços via ligação de porta</summary>
+<summary>VII. Vinculação de porta - Exporte serviços via vínculo de porta </summary>
 
-## VII. Vínculo de Portas
+## 7. Vínculo de Portas
   
 ### Exporte serviços via vínculo de portas
 
@@ -188,11 +177,9 @@ Note que a abordagem de vincular portas significa que um app pode se tornar o [s
 </details>
 
 <details>
-<summary>
-VIII. Simultaneidade
-<br />Escale horizontalmente por meio do modelo de processo</summary>
+<summary>VIII. Simultaneidade - Escale horizontalmente por meio do modelo de processo</summary>
   
-## VIII. Concorrência
+## 8. Concorrência
   
 ### Escale através do processo modelo
 
@@ -210,11 +197,9 @@ Processos de uma app doze-fatores [nunca deveriam daemonizar](http://dustin.gith
 </details>
 
 <details>
-<summary>
-IX. Descartabilidade
-<br />Maximize a robustez com inicialização rápida e desligamento normal</summary>
+<summary>IX. Descartabilidade - Maximize a robustez com inicialização rápida e desligamento normal</summary>
 
-## IX. Descartabilidade
+## 9. Descartabilidade
   
 ### Maximize robustez com inicialização rápida e desligamento gracioso
 
@@ -230,11 +215,9 @@ Processos também devem ser **robustos contra morte súbida**, no caso de uma fa
 </details>
 
 <details>
-<summary>
-X. Paridade de desenvolvimento/produção
-<br />Mantenha o desenvolvimento, a preparação e a produção o mais semelhante possível</summary>
+<summary>X. Paridade de desenvolvimento/produção - Mantenha o desenvolvimento, a preparação e a produção o mais semelhante possível</summary>
 
-## X. Paridade entre desenvolvimento e produção
+## 10. Paridade entre desenvolvimento e produção
   
 ### Mantenha o desenvolvimento, homologação e produção o mais similares possível
 
@@ -314,11 +297,10 @@ Adaptadores para diferentes serviços de apoio ainda são úteis, pois eles faze
 </details>
 
 <details>
-<summary>
-XI. Histórico
-<br />Tratar logs como streams de eventos</summary>
+<summary>XI. Histórico - Tratar logs como streams de eventos</summary>
 
-## XI. Logs
+## 11. Logs
+  
 ### Trate logs como fluxos de eventos
 
 *Logs* provém visibilidade no comportamento de um app em execução. Em ambientes de servidor eles são comumente escritos num arquivo em disco (um "logfile"); mas este é apenas um formato de saída.
@@ -337,11 +319,10 @@ O fluxo de evento para um app pode ser direcionado para um arquivo, ou visto em 
 </details>
 
 <details>
-<summary>
-XII. Processos administrativos
-<br />Execute tarefas de administração/gerenciamento como processos únicos</summary>
+<summary>XII. Processos administrativos - Execute tarefas de administração/gerenciamento como processos únicos</summary>
 
-## XII. Processos administrativos
+## 12. Processos administrativos
+  
 ### Rode tarefas de administração/gestão em processos pontuais
 
 A [formação de processos](./concurrency) é o conjunto de processos que são usados para fazer as negociações regulares da app como ela é executada (tais como manipulação de requisições web). Separadamente, os desenvolvedores, muitas vezes desejam fazer tarefas pontuais de administração ou manutenção para a app, tais como:
