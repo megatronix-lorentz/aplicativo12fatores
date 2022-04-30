@@ -23,7 +23,7 @@ Qualquer desenvolvedor que cria aplicativos que são executados como um serviço
 ## Os doze fatores
 
 <details>
-<summary>I. Base de código </summary>
+<summary>I. Base de código - Uma base de código rastreada no controle de revisão, muitas implantações </summary>
 
 ## 1. Base de código
   
@@ -46,7 +46,7 @@ A base de código é a mesma através de todos os deploys, entretanto diferentes
 </details>
   
 <details>
-<summary>II. Dependências </summary>
+<summary>II. Dependências - Declare e isole explicitamente dependências</summary>
   
 ## 2. Dependências
   
@@ -64,7 +64,7 @@ Aplicações doze-fatores também não contam com a existência implícita de to
 </details>
 
 <details>
-<summary>III. Configuração </summary>
+<summary>III. Configuração - Armazenar a configuração no ambiente</summary>
 
 ## 3. Configuração
   
@@ -93,7 +93,7 @@ Em uma aplicação doze-fatores, env vars são controles granulares, cada um tot
 </details>
 
 <details>
-<summary>IV. Serviços de apoio s</summary>
+<summary>IV. Serviços de apoio - Trate os serviços de apoio como recursos anexados</summary>
   
 ## 4. Serviços de apoio
   
@@ -113,7 +113,7 @@ Recursos podem ser anexados e desanexados a deploys à vontade. Por exemplo, se 
 </details>
 
 <details>
-<summary>V. Construir, liberar, executar </summary>
+<summary>V. Construir, liberar, executar - Separe estritamente os estágios de construção e execução</summary>
   
 ## 5. Construa, lance, execute
   
